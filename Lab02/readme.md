@@ -1,0 +1,1 @@
+Since the tools that the lecturer mentioned had been ***deprecated***, i spent ***2 days*** trying to find an alternative for that 2 tools; until I found out that they has been incoperated into firefox's ***inspect element function***. That is why exercise 3 has been late. Sorry for the inconvenience.

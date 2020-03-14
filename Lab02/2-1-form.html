@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey on your personal information</title>
+</head>
+<body>
+    <h3>About Yourself</h3>
+    <form action="2-1-form.php" method="POST">
+        <br>
+        Enter Your Name: <input type="text" name = "name" size="16" maxlength="64" autofocus="autofocus">
+
+        <br>
+        Enter Your Email: <input type="email" name = "email" size="16" maxlength="64"
+                                 placeholder="e.g. example@gmail.com">
+
+        <br>
+        Enter Your Home Address: <input type="text" name = "home" size="16" maxlength="128">
+
+        <br>
+        Study at: <input type="text" name = "school" size="16" maxlength="64">
+
+        <br>
+        Class: <input type="text" name = "unit" size="16" maxlength="32">
+
+        <br>
+        Hobbies:<br>
+        <input type="checkbox" name="hobby1" value="Gaming">
+        <label for="hobby1">Gaming</label><br>
+        <input type="checkbox" name="hobby2" value="Football">
+        <label for="hobby2">Football</label><br>
+        <input type="checkbox" name="hobby3" value="Basketball">
+        <label for="hobby3">Basketball</label><br>
+        <input type="checkbox" name="hobby4" value="Swimming">
+        <label for="hobby4">Swimming</label><br>
+        <input type="checkbox" name="hobby5" value="Reading">
+        <label for="hobby5">Reading</label><br>
+        <input type="checkbox" name="hobby6" value="Surfing the internet">
+        <label for="hobby6">Surfing the internet</label><br>
+        <input type="checkbox" name="hobby7" value="Photography">
+        <label for="hobby7">Photography</label><br>
+        Others: <input type="text" name="hobby8" multiple="multiple"
+                       placeholder="Your other hobbies." size="16" maxlength="512">
+
+        <br>
+        <h3>Programming language comfortable</h3>
+        What programming language can you understand:<br>
+        <input type="checkbox" name="lang1" value="C/C++">
+        <label for="lang1">C/C++</label><br>
+        <input type="checkbox" name="lang2" value="Java">
+        <label for="lang2">Java</label><br>
+        <input type="checkbox" name="lang3" value="Python">
+        <label for="lang3">Python</label><br>
+        <input type="checkbox" name="lang4" value="Ruby">
+        <label for="lang4">Ruby</label><br>
+        <input type="checkbox" name="lang5" value="Lisp">
+        <label for="lang5">Lisp</label><br>
+        Others: <input type="text" name="lang6" multiple="multiple"
+                       placeholder="Your other languages." size="16" maxlength="512">
+
+        <br>
+        <h3>Job Status</h3>
+        Are you actively seeking job opportunities?
+        <input type="radio" name="job" value="Yes">
+        <input type="radio" name="job" value="No">
+        <br>
+        <input type="SUBMIT" value="Click To Submit">
+        <input type="RESET" value="Erase and Resart">
+    </form>
+</body>
+</html>
