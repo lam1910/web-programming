@@ -7,6 +7,7 @@
         <?php
             $sep = ", ";
             $name = $_POST["name"];
+            $sex = $_POST["sex"];
             $email = $_POST["email"];
             $home = $_POST["home"];
             $school = $_POST["school"];
@@ -32,6 +33,7 @@
             $isSeekJob = $_POST["job"];
 
             print ("<br>$name");
+            print (". $sex");
             print ("<br>Your email address is $email");
             print ("<br>Your home address is $home");
             print ("<br>Study at $school");
