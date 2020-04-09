@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pag information</title>
+    <style>
+        input {
+            margin-top: 12px;
+            margin-bottom: 36px;
+            padding: 14px;
+            font-size: 16pt;
+        }
+    </style>
+</head>
+<body>
+<div style="text-align: center;"><h2>Generate Page</h2></div>
+<div style="text-align: center;">
+    <form action="pageGen.php" method="post" target="_blank">
+        Title:<br>
+        <input type="text" name="title" size="50" required autocapitalize="characters" autofocus
+               placeholder="Enter your title here"><br>
+
+        Content:<br>
+        <input type="text" name="content" size="50" placeholder="Enter your content here"><br>
+
+        Organization:<br>
+        <input type="text" name="copyright" size="50" required placeholder="Enter your organization"><br>
+
+        Year:<br>
+        <input type="number" name="year" size="50" required placeholder="What year it is " min="1500"><br>
+
+        <input type="submit" name="submit" value="Display page">
+    </form>
+</div>
+</body>
+</html>
