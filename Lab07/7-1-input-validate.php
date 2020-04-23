@@ -15,21 +15,21 @@ $email = $_POST["email"];
 $url = $_POST["url"];
 $phone = $_POST["phone"];
 
-if (preg_match($email_regex, $email)){
+if (preg_match($email_regex, $email)) {
     print "Valid email = $email <br>";
-}else{
+} else {
     print "Invalid email=$email<br>";
 }
-if (preg_match($url_regex, $url)){
+if (preg_match($url_regex, $url)) {
     print "Valid url with http = $url <br>";
-}elseif (preg_match($url_wo_http_regex, $url)){
+} elseif (preg_match($url_wo_http_regex, $url)) {
     print "Valid url without http = $url <br>";
-}else{
+} else {
     print "Invalid url=$url<br>";
 }
-if (preg_match($phone_regex, $phone)){
+if (preg_match($phone_regex, $phone)) {
     print "Valid phone number = $phone <br>";
-}else{
+} else {
     print "Invalid phone number=$phone<br>";
 }
 ?>
