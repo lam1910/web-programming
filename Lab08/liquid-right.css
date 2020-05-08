@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* color scheme used just to highlight the region on the web page, no aesthetic value. when used, change
+all the color*/
+
+#header {
+    background: #F0B48C; /*change color based on your your preference*/
+    width: 100%;
+}
+
+#rightcol {
+    background: #F0E68C; /*change color based on your your preference*/
+    float: right;
+    width: 21%;
+    height: 92vh;
+}
+
+#content {
+    background: #8C96F0; /*change color based on your your preference*/
+    float: right;
+    width: 79%;
+    height: 92vh;
+}
+
+#footer {
+    background: #C8F08C; /*change color based on your your preference*/
+    clear: both;
+    width: 100%;
+    text-align: right;
+}
+
+em{
+    font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+    font-size: large;
+    font-style: initial;
+}
